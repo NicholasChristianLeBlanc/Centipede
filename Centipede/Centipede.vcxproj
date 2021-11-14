@@ -88,12 +88,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\SDL2-2.0.14\include;E:\SDL2_image-2.0.4\include;E:\SDL2_ttf-2.0.15\include;E:\SDL2_mixer-2.0.4\include;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\SDL2-2.0.14\include;F:\SDL2_image-2.0.4\include;F:\SDL2_ttf-2.0.15\include;F:\SDL2_mixer-2.0.4\include;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\SDL2-2.0.14\lib\x86;E:\SDL2_image-2.0.4\lib\x86;E:\SDL2_ttf-2.0.15\lib\x86;E:\SDL2_mixer-2.0.4\lib\x86</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>F:\SDL2-2.0.14\lib\x86;F:\SDL2_image-2.0.4\lib\x86;F:\SDL2_ttf-2.0.15\lib\x86;F:\SDL2_mixer-2.0.4\lib\x86</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;Shell32.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -132,12 +132,12 @@ xcopy "$(ProjectDir)..\Assets\*" "$(OutDir)Assets\" /y /s
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\SDL2-2.0.14\include;E:\SDL2_image-2.0.4\include;E:\SDL2_ttf-2.0.15\include;E:\SDL2_mixer-2.0.4\include;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\SDL2-2.0.14\include;F:\SDL2_image-2.0.4\include;F:\SDL2_ttf-2.0.15\include;F:\SDL2_mixer-2.0.4\include;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\SDL2-2.0.14\lib\x64;E:\SDL2_image-2.0.4\lib\x64;E:\SDL2_ttf-2.0.15\lib\x64;E:\SDL2_mixer-2.0.4\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>F:\SDL2-2.0.14\lib\x64;F:\SDL2_image-2.0.4\lib\x64;F:\SDL2_ttf-2.0.15\lib\x64;F:\SDL2_mixer-2.0.4\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;Shell32.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
